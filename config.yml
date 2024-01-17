@@ -23,7 +23,7 @@ collections:
           - { name: 'title', label: 'Title' }
           - { name: 'content', label: 'Content', widget: 'markdown' }
 
-      - file: 'content/tarif.md'
+      - file: 'content/tarifs.md'
         label: 'Tarif Page'
         name: 'tarif'
         fields:
