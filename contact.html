@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explorez l'univers captivant de Charles Cantin, photographe spécialisé dans l'immortalisation des moments précieux. Contactez-nous pour vos souvenirs uniques !">
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <title>Charles CANTIN - Photographe</title>
+</head>
+<body>
+    <nav class="nav">
+        <img class="nav-logo" src="img/logo.png" alt="logo" />
+            <ul class="nav-ul">
+                <li class="nav-li nav-li-link"><a href="index.html">accueil</a></li>
+                <li class="nav-li nav-li-link"><a href="galerie.html">galerie</a></li>
+                <li class="nav-li nav-li-link"><a href="tarifs.html">tarifs & prestations</a></li>
+                <li class="nav-li nav-li-link"><a href="contact.html">contacts</a></li>
+                <li class="nav-li nav-li-social"><a href="https://www.facebook.com/" target="_blank"><img src="img/icon/facebook.png"/></a></li>
+                <li class="nav-li nav-li-social"><a href="https://www.instagram.com/" target="_blank"><img src="img/icon/instagram.png"/></a></li>
+            </ul>
+    </nav>
+    <h1 class="contact-h1">Vous avez une question, contactez nous :</h1>
+
+    <img class="background-logo" src="img/logo.png" alt="logo" />
+
+        <form method="post" action="" netlify>
+            <!-- &nbsp;: = garantit que l'espace entre les mots ne sera pas modifié.-->
+            <div class="contact-form-top">
+                <label for="name"> Nom&nbsp;:</label>
+                <input name="name" id="name" type="text" required>
+                <label for="firstname"> Prénom&nbsp;:</label>
+                <input name="firstname" id="firstname" type="text" required >
+                <label for="mail">E-mail&nbsp;:</label>
+                <input name="mail" id="mail" type="mail" size="30" placeholder="exemple@mail.com" required>
+                <label for="phone">téléphone&nbsp;:</label>
+                <input name="phone" id="phone" type="tel" required>
+            </div>
+            <fieldset>
+                <legend>Quelle(s) prestation(s) vous interesse ?</legend>
+                <div>
+                    <input type="checkbox" id="portrait" name="portrait"  />
+                    <label for="portrait">portrait</label>
+                </div>
+                    <input type="checkbox" id="bebe" name="bebe" />
+                    <label for="bebe">bébé</label>
+                <div>
+                    <input type="checkbox" id="couple" name="couple" />
+                    <label for="couple">couple</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="famille" name="famille" />
+                    <label for="famille">famille</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="grossesse" name="grossesse"/>
+                    <label for="grossesse">grossesse</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="evenement" name="evenement" />
+                    <label for="evenement">evenement</label>
+                </div>
+            </fieldset>
+            <div class="contact-form-bottom">
+            <label for="msg">Message&nbsp;:</label>
+            <textarea id="msg" name="user_message" rows="15" cols="45" required></textarea>
+
+                <button class="contact-button" type="submit">Envoyer la demande</button>
+            </div>
+        </form>
+
+    <footer>
+        <p>Tous droits d'auteur © 2024 CHARLES CANTIN photos</p>
+    </footer>
+    <script src="index.js"></script>
+    </body>
+    </html>
