@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: votre-nom-utilisateur/votre-depot-github # Remplacez par votre nom d'utilisateur GitHub et le nom de votre dépôt
+  repo: Lastef60/one-click-hugo-cms
 
 media_folder: static/content/images
 public_folder: /content/images
