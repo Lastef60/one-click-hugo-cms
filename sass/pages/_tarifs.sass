@@ -1,0 +1,34 @@
+.tarifs-section
+    margin : 25px 0
+
+.tarif-h2,
+.tarifs-section-div-p,
+.tarifs-section-div-price
+    visibility : hidden
+
+.tarifs-section-div-img
+    width : 100px
+    height : auto
+
+.tarifs-section-div-p
+    margin-bottom: 10px
+
+.ligne-separation
+    border: none
+    border-top: 2px dotted //Couleur et épaisseur de la ligne
+    margin: 20px
+
+@media screen and (min-width: 768px)
+        .tarifs-section-div
+            display: flex
+            align-items: center
+            text-align: center
+            width: 100%
+
+        .tarifs-section-div-img
+            width: 200px
+            max-width: 100%
+            height: auto
+
+        .tarif-h2, .tarifs-section-div-p
+            width: 100%

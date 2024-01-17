@@ -1,0 +1,57 @@
+form 
+    color: #fcfcf7
+    background-color: #47555E
+
+form, textarea 
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-items: flex-start
+
+.contact-form-top
+    display: flex
+    flex-direction: column
+
+fieldset
+    border:1px solid #fcfcf7
+
+legend
+    background: #47555E
+
+textarea
+    resize: none //pour que la fenetre ne soit pas redimensionnable dans le navigateur
+
+
+
+.contact-button
+    color :#47555E
+    text-decoration-color: #fcfcf7
+    width : 90px
+    margin : 10px
+    border-radius: 45px
+
+@media screen and (min-width: 768px)
+    form
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        align-items: flex-start
+        margin-top: 30px
+
+    .contact-form-top
+        margin-left: 80px
+        padding: 5px
+
+    fieldset
+        padding:20px
+        margin-left: 80px
+
+    legend
+        margin: 20px
+        margin-left: 80px
+
+    .contact-form-bottom
+        display: flex
+        flex-direction: column
+        margin-left: 80px
+        width : 390px
