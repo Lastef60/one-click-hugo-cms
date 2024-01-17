@@ -1,0 +1,23 @@
+{
+  "name": "one-click-hugo-cms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "mocha",
+    "sass": "sass --watch src/scss:dist/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lastef60/one-click-hugo-cms.git"
+  },
+  "author": "Lastef60",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lastef60/one-click-hugo-cms/issues"
+  },
+  "homepage": "https://github.com/Lastef60/one-click-hugo-cms#readme",
+  "devDependencies": {
+    "sass": "^1.69.7"
+  }
+}
