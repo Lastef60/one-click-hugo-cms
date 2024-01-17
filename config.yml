@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: LAstef60/one-click-hugo-cms
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: 'articles'
+    label: 'Articles'
+    folder: '_posts'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { name: 'title', label: 'Title' }
+      - { name: 'date', label: 'Date', widget: 'datetime' }
+      - { name: 'body', label: 'Body', widget: 'markdown' }
