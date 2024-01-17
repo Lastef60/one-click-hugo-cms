@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explorez l'univers captivant de Charles Cantin, photographe spécialisé dans l'immortalisation des moments précieux. Contactez-nous pour vos souvenirs uniques !">
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <title>Charles CANTIN - Photographe</title>
+</head>
+<body>
+    <nav class="nav">
+        <img class="nav-logo" src="img/logo.png" alt="logo" />
+            <ul class="nav-ul">
+                <li class="nav-li nav-li-link"><a href="accueil.html">accueil</a></li>
+                <li class="nav-li nav-li-link"><a href="galerie.html">galerie</a></li>
+                <li class="nav-li nav-li-link"><a href="tarifs.html">tarifs & prestations</a></li>
+                <li class="nav-li nav-li-link"><a href="contact.html">contacts</a></li>
+                <li class="nav-li nav-li-social"><a href="https://www.facebook.com/" target="_blank"><img src="img/icon/facebook.png"/></a></li>
+                <li class="nav-li nav-li-social"><a href="https://www.instagram.com/" target="_blank"><img src="img/icon/instagram.png"/></a></li>
+            </ul>
+    </nav>
+
+    <div class="container-galerie">
+        <h1 class="galerie-h1">cliquez sur les photos pour découvrir la galerie</h1>
+
+        <div class="container-wrapper">
+            <div class="container-wrapper-box box1 container-wrapper-box-js" id="box1">
+                <img class="box-h wrapper-img-js " src="img/bebe/babyG.jpg" alt="photo d'un bébé qui tient un ballon"/>
+                <p class="wrapper-p wrapper-p-js">Bébé</p>
+            </div>
+            <div class="container-wrapper-box box2 container-wrapper-box-js" id="box2">
+                <img class="box-h wrapper-img-js " src="img/famille/familleG.jpg" alt="photo d'une famille qui marche sur passage pieton façon The Beatles"/>
+                <p class="wrapper-p wrapper-p-js">Famille</p>
+            </div>
+            <div class="container-wrapper-box box3 container-wrapper-box-js" id="box3">
+                <img class="wrapper-img-v box-v wrapper-img-js" src="img/couple/coupleG.jpg" alt="photo d'un couple qui s'embrasse"/>
+                <p class="wrapper-p wrapper-p-js">Couple</p>
+            </div>
+            <div class="container-wrapper-box box4 container-wrapper-box-js" id="box4">
+                <img class="wrapper-img-v box-v wrapper-img-js" src="img/grossesse/grossesseG.jpg" alt="photo d'une femme enceinte"/>
+                <p class="wrapper-p wrapper-p-js">Grossesse</p>
+            </div>
+            <div class="container-wrapper-box box5 container-wrapper-box-js" id="box5">
+                <img class="wrapper-img-v box-v wrapper-img-js" src="img/mariage/mariageG.jpg" alt="photo d'alliance"/>
+                <p class="wrapper-p wrapper-p-js">Mariage</p>
+            </div>
+            <div class="container-wrapper-box box6 container-wrapper-box-js" id="box6">
+                <img class="box-h wrapper-img-js" src="img/portrait/portraitG.jpg" alt="photo portrait d'une femme"/>
+                <p class="wrapper-p wrapper-p-js">Portrait</p>
+            </div>
+            <div class="container-wrapper-box box7 container-wrapper-box-js" id="box7">
+                <img class="box-h wrapper-img-js " src="img/bapteme/baptemeG.jpg" alt="photo d'un bébé se faisant baptiser"/>
+                <p class="wrapper-p wrapper-p-js">Baptême</p>
+            </div> 
+        </div>
+        <div class="carrousel" id="carrousel">
+
+            <div class="carrousel-container" id="carrousel-container">
+                <!--div qui contiendra dynamiquement les carrousels-->
+            </div>
+            <img src="img/icon/leftarrow.png" alt="left" class="carrousel-button carrousel-button-left" id="carrousel-button-left"/>
+            <img src="img/icon/rightarrow.png" alt="right" class="carrousel-button carrousel-button-right" id="carrousel-button-right"/>
+            <img src="img/icon/close.png" alt="close" class="carrousel-button-close" id="carrousel-button-close"/>
+          
+        </div> 
+    </div>   
+    <footer>
+        <p>Tous droits d'auteur © 2024 CHARLES CANTIN photos</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
