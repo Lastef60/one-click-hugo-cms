@@ -1,17 +1,38 @@
 backend:
   name: github
-  repo: LAstef60/one-click-hugo-cms
+  repo: votre-nom-utilisateur/votre-depot-github # Remplacez par votre nom d'utilisateur GitHub et le nom de votre dépôt
 
-media_folder: static/img
-public_folder: /img
+media_folder: static/content/images
+public_folder: /content/images
 
 collections:
-  - name: 'articles'
-    label: 'Articles'
-    folder: '_posts'
-    create: true
-    slug: '{{slug}}'
-    fields:
-      - { name: 'title', label: 'Title' }
-      - { name: 'date', label: 'Date', widget: 'datetime' }
-      - { name: 'body', label: 'Body', widget: 'markdown' }
+  - name: 'pages'
+    label: 'Pages'
+    files:
+      - file: 'content/index.md'
+        label: 'Index Page'
+        name: 'index'
+        fields:
+          - { name: 'title', label: 'Title' }
+          - { name: 'content', label: 'Content', widget: 'markdown' }
+
+      - file: 'content/galerie.md'
+        label: 'Galerie Page'
+        name: 'galerie'
+        fields:
+          - { name: 'title', label: 'Title' }
+          - { name: 'content', label: 'Content', widget: 'markdown' }
+
+      - file: 'content/tarif.md'
+        label: 'Tarif Page'
+        name: 'tarif'
+        fields:
+          - { name: 'title', label: 'Title' }
+          - { name: 'content', label: 'Content', widget: 'markdown' }
+
+      - file: 'content/contact.md'
+        label: 'Contact Page'
+        name: 'contact'
+        fields:
+          - { name: 'title', label: 'Title' }
+          - { name: 'content', label: 'Content', widget: 'markdown' }
